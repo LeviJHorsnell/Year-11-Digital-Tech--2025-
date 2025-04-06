@@ -33,4 +33,4 @@ if answer1 == "Yes":
     easygui.msgbox("You have 10 questions to answer. Every correct answer will give you one point, while every wrong answer will deduct a point. Good luck!")
 list_q=["Pikachu", "Digglet", "Ho-oh", "Emboar", "Beedrill", "Vileplume", "Happiny", "Arceus", "Hawlucha", "Porygon"]
 list_a=["Volt tackle", "Fissure", "Sacred fire", "Heat crash", "Twineedle", "Petal dance", "Soft-Boiled", "Judgement", "Flying press", "Conversion"]
-print(list_q[1])
+

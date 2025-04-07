@@ -36,4 +36,4 @@ list_a=["Volt tackle", "Fissure", "Sacred fire", "Heat crash", "Twineedle", "Pet
 answer=easygui.buttonbox("Which of these moves is exclusive to " + list_q[0], choices=["Electrify", "Zing zap", list_a[0], "Techno blast"] )
 if answer == list_a[0]:
     score =+ 1
-    print(score)
+    easygui.msgbox("Correct! Your score is now " + score)

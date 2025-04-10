@@ -170,4 +170,4 @@ if score == 0 or 1 or 2 or 3:
 if score == 4 or 5 or 6:
     easygui.msgbox("You did well " + name + "! Your score was " + str(score))
 if score == 7 or 8 or 9:
-    easygui.msgbox(name + f", you did very well on this test! Your score was " + {score})
+    easygui.msgbox(name + ", you did very well on this test! Your score was " + (score))
